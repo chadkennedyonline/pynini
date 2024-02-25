@@ -27,7 +27,6 @@ from setuptools import setup
 
 COMPILE_ARGS = [
     "-std=c++17",
-    "-Wno-unused-local-typedefs",
     "-funsigned-char",
 ]
 if sys.platform.startswith("darwin"):
